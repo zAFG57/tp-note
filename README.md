@@ -10,5 +10,5 @@
 
 1) Créer une classe `LinkService`, ayant pour méthode `getLinks` qui retourne un tableau de `String`
 2) Créer un composant `Navbar` qui affichera une liste de lien : un lien Home, un lien "Teams", un lien "Results"
-3) Au clic sur le lien "Teams", ouvrir une page contenant un formulaire pour ajouter une Team { id, name }. Le résultat sera affiché dans la console
+3) Au clic sur le lien "Teams", ouvrir un onglet contenant un formulaire pour ajouter une Team { id, name }. Le résultat sera affiché dans la console
 4) Créer un composant `TeamCard` permettant d'afficher une équipe et l'utilisere pour l'affichage des équipes créees
