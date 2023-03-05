@@ -1,3 +1,5 @@
+/* Onglet */
+
 .menu-pannel {
     background-color: #000000;
     color: #ffffff;
@@ -16,4 +18,20 @@
 
 .hidden {
     display: none;
+}
+
+
+/* Formulaire */
+
+form label,
+form input {
+    display: block;
+}
+
+
+/* CARD */
+
+.team-card {
+    border: #000000 1px;
+    border-radius: 5px;
 }
