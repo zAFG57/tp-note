@@ -35,3 +35,14 @@ form input {
     border: #000000 1px;
     border-radius: 5px;
 }
+
+
+/* Erreur */
+
+.text-error {
+    color: red;
+}
+
+.box-error {
+    border: 1px solid red;
+}
