@@ -14,4 +14,4 @@
 4) Créer un composant `TeamCard` permettant d'afficher une équipe et l'utiliser pour l'affichage des équipes créées
 5) Enrichir une Team avec le champ `description` qui sera à saisir dans le formulaire et à afficher dans le détail d'une Team (composant `TeamCard`)
 6) Afficher que les 20 premiers caractères de la `description` dans la `TeamCard`
-7) Dans le formulaire, mettre en place une vérification d'erreur sur chaque champ (affichage d'un message d'erreur + mise en avant du champ en question)
+7) Dans le formulaire, mettre en place une vérification d'erreur (champs obligatoire, titre de 5 caractères, descriptionde 20 caractères) sur chaque champ (affichage d'un message d'erreur + mise en avant du champ en question)
