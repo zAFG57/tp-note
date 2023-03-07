@@ -15,3 +15,4 @@
 5) Enrichir une Team avec le champ `description` qui sera à saisir dans le formulaire et à afficher dans le détail d'une Team (composant `TeamCard`)
 6) Afficher que les 20 premiers caractères de la `description` dans la `TeamCard`
 7) Dans le formulaire, mettre en place une vérification d'erreur (champs obligatoires, name de 5 caractères minimum, descriptionde 20 caractères minimum) sur chaque champ (affichage d'un message d'erreur + mise en avant du champ en question)
+8) Compléter la `TeamCard` avec un élément clickable permettant, avec le libellé 'éditer', permettant de modifier l'équipe courante. Vous deevrez utiliser le même formulaire que pour la création et rafraichir l'affichage de la `TeamCard` éditée
