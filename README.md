@@ -15,14 +15,13 @@
 5) Enrichir une Team avec le champ `description` qui sera à saisir dans le formulaire et à afficher dans le détail d'une Team (composant `TeamCard`)
 6) Afficher que les 20 premiers caractères de la `description` dans la `TeamCard`
 7) Dans le formulaire, mettre en place une vérification d'erreur (champs obligatoires, name de 5 caractères minimum, descriptionde 20 caractères minimum) sur chaque champ (affichage d'un message d'erreur + mise en avant du champ en question)
-
 8) Compléter la `TeamCard` avec un élément clickable permettant, avec le libellé 'éditer', permettant de modifier l'équipe courante. Vous devrez utiliser le même formulaire que pour la création et rafraichir l'affichage de la `TeamCard` éditée
 9) Créer une classe générique `ApiService` qui vous prmettra d'effectuer des appels API de type GET ou POST via des méthodes dédiées qui retourneront le résultat de la requête au format JSON
-10) Créer une classe `ClashRoyaleService` dans laquelle vous ferez un appel en GET à la route `https://api.clashroyale.com/v1/globaltournaments`
-11) Sur l'onglet HOME, récupérer les 5 premiers tournois et afficher les grâce à un composant `TournamentCard` qui affichera le `title` et le `startTime` au format '01/01/2000 15h20'
+10) Créer une classe `NewsService` dans laquelle vous ferez un appel en GET à la route `https://newsapi.org/v2/everything`. Vous allez devoir récupérer les 5 articls les + récents, contenant le mot clé `esport`
+uniquement dans le `title`.
+11) Sur l'onglet HOME, récupérer les 5 derniers articles et afficher les grâce à un composant `NewsCard` qui affichera le `title` et le `publishedAt` au format '01/01/2000 15h20'
 
-## Clash Royale API
+## News API
 
-Afin d'utiliser l'API fournie par Clash Royale, vous allez devoir vous inscrire sur ce site : https://developer.clashroyale.com/#/
-Une fois cela fait, vous devrez créer une clé d'API, qu'il faudra utiliser en tant que `Bearer Token` dans le header `Authorization` de vos différentes requêtes.
-La documentation ccomplète de l'API est accessible ici : `https://developer.clashroyale.com/#/documentation`
+Afin d'utiliser l'API fournie par News API, vous allez devoir vous inscrire sur ce site : https://newsapi.org/
+La documentation ccomplète de l'API est accessible ici : `https://newsapi.org/docs`
