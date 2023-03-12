@@ -20,6 +20,7 @@
 10) Créer une classe `NewsService` dans laquelle vous ferez un appel en GET à la route `https://newsapi.org/v2/everything`. Vous allez devoir récupérer les 5 articls les + récents, contenant le mot clé `esport`
 uniquement dans le `title`.
 11) Sur l'onglet HOME, récupérer les 5 derniers articles et afficher les grâce à un composant `NewsCard` qui affichera le `title` et le `publishedAt` au format '01/01/2000 15h20'
+12) Dans l'onglet "Teams", rajouter un bouton "Export" qui va récupérer la liste de toutes les teams présente sur l'onglet et les log dnas la console au format JSON.
 
 ## News API
 
