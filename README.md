@@ -17,10 +17,11 @@
 7) Dans le formulaire, mettre en place une vérification d'erreur (champs obligatoires, name de 5 caractères minimum, descriptionde 20 caractères minimum) sur chaque champ (affichage d'un message d'erreur + mise en avant du champ en question)
 8) Compléter la `TeamCard` avec un élément clickable permettant, avec le libellé 'éditer', permettant de modifier l'équipe courante. Vous devrez utiliser le même formulaire que pour la création et rafraichir l'affichage de la `TeamCard` éditée
 9) Créer une classe générique `ApiService` qui vous prmettra d'effectuer des appels API de type GET ou POST via des méthodes dédiées qui retourneront le résultat de la requête au format JSON
-10) Créer une classe `NewsService` dans laquelle vous ferez un appel en GET à la route `https://newsapi.org/v2/everything`. Vous allez devoir récupérer les 5 articls les + récents, contenant le mot clé `esport` uniquement dans le `title`.
+10) Créer une classe `NewsService` dans laquelle vous ferez un appel en GET à la route `https://newsapi.org/v2/everything`. Vous allez devoir récupérer les 5 articls les + récents, contenant le mot clé `esport` uniquement dans le `title`
 11) Sur l'onglet HOME, récupérer les 5 derniers articles et afficher les grâce à un composant `NewsCard` qui affichera le `title` et le `publishedAt` au format '01/01/2000 15h20'
-12) Dans l'onglet "Teams", rajouter un bouton "Export" qui va récupérer la liste de toutes les teams présente sur l'onglet et les log dnas la console au format JSON.
+12) Dans l'onglet "Teams", rajouter un bouton "Export" qui va récupérer la liste de toutes les teams présente sur l'onglet et les log dnas la console au format JSON
 13) Configurer votre application pour que cette dernière se lance avec `npm run serve` au lieu de `npx serve`
+14) Dans l'onglet "Result", pouvoir ajouter un match entre les équipes présentent dans l'onglet "Teams". Un match sera composé de 2 équipes (choisies via des listes déroulantes) avec 1 score par équipe. Le score devra être supérieur ou égal à 0. Une fois un résultat ajouté vous devrez déclencher un appel HTTP pour ajouter un score sur l'URL "http://www.post-result.com". Cette URL ne fonctionne pas, il faudra gérer l'erreur.
 
 ## News API
 
