@@ -1,7 +1,7 @@
 ## Conseils/Consignes
 
 - Le projet peut être réalisé par 2 au maximum
-- Le travail devra être rendu via un repo GIT de votre choix
+- Le travail devra être rendu via un repo GIT de votre choix (github ou codefirst)
 - Le projet sera réalisé en vueJS
 - Pensez composant : on découpe la page en composant, chacun ayant UNE responsabilité
 - À chaque modification du repo, pensez à regarder TOUTES les modifications qui peuvent vous donner des idées, indices, solutions etc...
