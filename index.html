@@ -5,10 +5,31 @@
 <head>
     <title>My awesome team</title>
 
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
-
 <body>
-</body>
 
+
+    <div id="app">
+        <nav>
+            <links v-for="lien in liens" :id="lien.id" :label="lien.label" :link="lien.link" @navigate-to="navigateTo"></links> 
+        </nav>
+
+        <h1>{{h1Label}}</h1>
+    </div>
+
+
+    <script type="importmap">
+        {
+          "imports": {
+            "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js",
+            "navbar": "./js/component/Navbar.js",
+            "linkService": "./js/service/LinkService.js"
+          }
+        }
+    </script>
+    <script src="./js/const.js"></script>
+    <script type="module" src="./js/index.js"></script>
+
+</body>
 </html>

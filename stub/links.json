@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "label": "premier lien",
+        "link": "#a"
+    },
+    {
+        "id": 2,
+        "label": "deuxième lien",
+        "link": "#b"
+    },
+    {
+        "id": 3,
+        "label": "troisième lien",
+        "link": "#c"
+    }
+]

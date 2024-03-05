@@ -68,3 +68,21 @@ form input {
 .box-error {
     border: 1px solid red;
 }
+
+
+
+
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    height: 10vh;
+    width: 100vw;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
